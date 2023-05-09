@@ -73,11 +73,11 @@
             // | CRTL  | ALT   |  GUI     |   LOWER   |      GUI        | LOWER | SPACE   | --- | DEL  | SPACE |   RAISE   | LEFT | DOWN | UP  |   RIGHT    |
 
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                             &none  &none  &none  &none  &none  &none
-     &none         &none         &none         &none         &none         &none         &none                        &none  &none  &none  &none  &none  &none  &none
-     &none         &none         &none        &trans         &none         &none  &out OUT_TOG                        &none  &none  &none  &none  &none  &none  &none
-     &none         &none         &none         &none         &none         &none   &bootloader  &reset  &reset  &bootloader  &none  &none  &none  &none  &none  &none
-     &none         &none         &none         &none         &none                       &none   &none   &none        &none         &none  &none  &none  &none  &none
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                                                     &none  &none  &none  &none  &none  &none
+     &none         &none         &none         &none         &none         &none         &none                                &none  &none  &none  &none  &none  &none  &none
+     &none         &none         &none        &trans         &none         &none  &out OUT_TOG                                &none  &none  &none  &none  &none  &none  &none
+     &none         &none         &none         &none         &none         &none   &bootloader  &sys_reset  &sys_reset  &bootloader  &none  &none  &none  &none  &none  &none
+     &none         &none         &none         &none         &none                       &none       &none       &none        &none         &none  &none  &none  &none  &none
             >;
         };
     };
